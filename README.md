@@ -1,2 +1,3 @@
 # ecommerceweb
-i am trying to build my own ecommerse website
+1.making header done
+2.making hero section done

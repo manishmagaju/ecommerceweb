@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#399918",
+                        secondary: "#CB0404",
+                    },
+                    fontFamily: {
+                        sans: ["poppins"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="shadow sticky top-0 bg-white">
+        <div class="container mx-auto p-4">
+            <div class="flex justify-between  ">
+                <a href="#">
+                    <div class="flex  font-medium hover:font-bold w-40 text-2xl">
+                        <span class="text-primary">Shop</span>
+                        <span class="text-secondary">Nepal</span>
+
+                    </div>
+
+                </a>
+
+                <nav class=" hidden md:flex gap-6">
+                    <a href="#" class="hover:text-primary">Home</a>
+                    <a href="#" class="hover:text-primary">Products</a>
+                    <a href="#" class="hover:text-primary">Popular</a>
+                    <a href="#" class="hover:text-primary">Categories</a>
+                    <a href="#" class="hover:text-primary">Testimonials</a>
+
+                </nav>
+
+                <div class="text-xl text-orange-800">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- hero section -->
+        <section class="py-6 lg:py-6 bg-gray-300 h-svh md:h-96 lg:h-96">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row lg:flex-row">
+                    <!-- text -->
+                    <div class="md:w-1/2 lg:w-1/2 ">
+                        <div class="flex flex-col ">
+                            <h3 class="text-3xl md:text-4xl lg:text-6xl font-semibold py-2 ">New Amazing Products</h3>
+                            <p class="text-md md:text-2xl ">Shop today and get <span class="font-semibold"> 20%
+                                    discount</span></p>
+                        </div>
+
+
+                        <div class="flex flex-col md:flex-row gap-3 mt-3">
+                            <a href=""
+                                class="bg-primary text-white rounded-md p-2 text-center hover:bg-secondary border-4 border-black">shop
+                                now</a>
+                            <a href=""
+                                class="bg-secondary text-white rounded-md p-2 text-center hover:bg-primary border-4 border-black transition">view
+                                categories</a>
+                        </div>
+
+                    </div>
+
+                    <!-- img -->
+                    <div class="w-full md:w-1/2 mt-3 md:mt-0 ">
+                        <img src="assets/images/oooo.png" class="bg-primary h-80 w-full rounded-lg " alt="">
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
